@@ -265,6 +265,7 @@
       margin-top: 20px;
       padding: 10px;
       margin-left: 5px;
+      padding-bottom: 200px;
     }
   
     .music-container iframe {
@@ -288,6 +289,7 @@
       flex-direction: column;
       padding: 0;
       margin-left: 10px;
+      padding-bottom: 200px;
     }
   
     .about-me p {
@@ -397,5 +399,10 @@
   .success-message{
     font-size: 24px;
     font-family: var(--font-family);
+  }
+
+  #home, #about, #contact {
+    padding-top: 60px;
+    margin-top: -60px;
   }
   
